@@ -2071,5 +2071,17 @@
         "url": "settings.js"
       }
     ]
+  },
+  { "id": "bbreaker",
+    "name": "BrickBreaker",
+    "shortName":"BrickBreaker",
+    "icon": "bbreaker.png",
+    "version":"0.01",
+    "description": "A simple BreakOut clone for the Banglejs",
+    "tags": "",
+    "storage": [
+      {"name":"bbreaker.app.js","url":"app.js"},
+      {"name":"bbreaker.img","url":"app-icon.js","evaluate":true}
+    ]
   }
 ]
