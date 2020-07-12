@@ -2076,7 +2076,7 @@
     "name": "BrickBreaker",
     "shortName":"BrickBreaker",
     "icon": "bbreaker.png",
-    "version":"0.01",
+    "version":"0.02",
     "description": "A simple BreakOut clone for the Banglejs",
     "tags": "game",
     "type": "app",
