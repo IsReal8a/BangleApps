@@ -80,7 +80,7 @@
     "name": "Notifications (default)",
     "shortName":"Notifications",
     "icon": "notify.png",
-    "version":"0.02",
+    "version":"0.03",
     "description": "A handler for displaying notifications that displays them in a bar at the top of the screen",
     "tags": "widget",
     "type": "notify",
@@ -93,7 +93,7 @@
     "name": "Fullscreen Notifications",
     "shortName":"Notifications",
     "icon": "notify.png",
-    "version":"0.02",
+    "version":"0.04",
     "description": "A handler for displaying notifications that displays them fullscreen. This may not fully restore the screen after on some apps. See `Notifications (default)` for more information about the notifications library.",
     "tags": "widget",
     "type": "notify",
@@ -121,7 +121,7 @@
   { "id": "gbridge",
     "name": "Gadgetbridge",
     "icon": "app.png",
-    "version":"0.16",
+    "version":"0.17",
     "description": "The default notification handler for Gadgetbridge notifications from Android",
     "tags": "tool,system,android,widget",
     "type":"widget",
@@ -454,6 +454,24 @@
     ],
     "data": [
       {"name":"widbatpc.json"}
+    ]
+  },
+  { "id": "widbatwarn",
+    "name": "Battery Warning",
+    "shortName": "Battery Warning",
+    "icon": "widget.png",
+    "readme": "README.md",
+    "version":"0.01",
+    "description": "Show a warning when the battery runs low.",
+    "tags": "tool,battery",
+    "type":"widget",
+    "dependencies": { "notify":"type" },
+    "storage": [
+      {"name":"widbatwarn.wid.js","url":"widget.js"},
+      {"name":"widbatwarn.settings.js","url":"settings.js"}
+    ],
+    "data": [
+      {"name":"widbatwarn.json"}
     ]
   },
   { "id": "widbt",
@@ -1225,7 +1243,7 @@
   { "id": "minionclk",
     "name": "Minion clock",
     "icon": "minionclk.png",
-    "version": "0.02",
+    "version": "0.03",
     "description": "Minion themed clock.",
     "tags": "clock,minion",
     "type": "clock",
@@ -1447,7 +1465,7 @@
     "name": "BangleRun",
     "shortName": "BangleRun",
     "icon": "banglerun.png",
-    "version": "0.02",
+    "version": "0.04",
     "description": "An app for running sessions.",
     "tags": "run,running,fitness,outdoors",
     "allow_emulator": false,
@@ -1582,8 +1600,7 @@
       {"name": "ballmaze.json"}
     ]
   },
-  {
-    "id": "calendar",
+  { "id": "calendar",
     "name": "Calendar",
     "icon": "calendar.png",
     "version": "0.01",
@@ -2102,5 +2119,29 @@
       {"name":"bbreaker.app.js","url":"app.js"},
       {"name":"bbreaker.img","url":"app-icon.js","evaluate":true}
     ]
+  },
+  { "id": "osgridref",
+    "name": "Ordnance Survey Grid Reference",
+    "shortName":"OS Grid ref",
+    "icon": "app.png",
+    "version":"0.01",
+    "description": "Displays the UK Ordnance Survey grid reference of your current GPS location. Useful when in the United Kingdom with an Ordnance Survey map",
+    "tags": "outdoors,gps",
+    "storage": [
+      {"name":"osgridref.app.js","url":"app.js"},
+      {"name":"osgridref.img","url":"app-icon.js","evaluate":true}
+    ]
+  },
+  {"id": "counter",
+  "name": "Counter",
+  "icon": "counter_icon.png",
+  "version": "0.01",
+  "description": "Simple counter",
+  "tags": "tool",
+  "allow_emulator": true,
+  "storage": [
+    {"name": "counter.app.js", "url": "counter.js"},
+    {"name": "counter.img", "url": "counter-icon.js", "evaluate": true}
+   ]
   }
 ]
