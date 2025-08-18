@@ -4,7 +4,7 @@
 
 An over-engineered clock inspired by Casio watches.<br/>
 It has a dedicated timer, a scratchpad and displays the current temperature.<br/>
-Forked from the awesome Cassio Watch.<br/>
+Forked from the awesome Casio Watch.<br/>
 
 ## Todo
 
@@ -43,11 +43,7 @@ Web interface to update weather & scratchpad <br/>
 - swipe left : stop timer
 
 ## Links
-### Issues, suggestions and bugtracker
-<a target="_blank" href="https://github.com/dotgreg/advCasioBangleClock/issues">https://github.com/dotgreg/advCasioBangleClock/issues</a>
-
-### Code repository (bangle app and web app)
-<a target="_blank" href="https://github.com/dotgreg/advCasioBangleClock">https://github.com/dotgreg/advCasioBangleClock</a>
 
 ### Creator 
 <a target="_blank" href="https://github.com/dotgreg">https://github.com/dotgreg</a>
+
